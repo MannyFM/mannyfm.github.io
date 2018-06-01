@@ -1,0 +1,59 @@
+---
+---
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+$color-licorice: #111011;
+$color-baby-powder: #FEFFFC;
+$color-silver: #C0C5C1;
+$color-black-coral: #5B616A;
+$color-old-lace: #FCF5E4;
+$ubuntu-mono: 'Ubuntu Mono', monospace;
+$bottom-line: 2px solid $color-silver;
+$background-color: $color-baby-powder;
+$spec-text-color: $color-black-coral;
+$text-color: $color-black-coral;
+$header-font: $ubuntu-mono;
+
+body {
+  background-color: $background-color;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 1px;
+  color: $spec-text-color;
+}
+
+h1, h2, h3 {
+  color: $color-licorice;
+  font: {
+    family: $header-font;
+    weight: 200;
+  }
+}
+
+.main {
+  margin: 0 auto;
+  max-width: 1024px;
+  color: $text-color;
+  font: {
+    weight: lighter;
+  }
+}
+
+.header {
+  padding: 38px;
+  border-bottom: $bottom-line;
+  font-family: $header-font;
+}
+
+.header .nav2 {
+  float: right;
+}
+
+.header .nav2 > a {
+  padding: 0 2px 4px;
+}
+
+.header .nav2 > a.selected {
+  border-bottom: $bottom-line;
+}
