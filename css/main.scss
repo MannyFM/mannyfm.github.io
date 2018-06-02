@@ -5,7 +5,6 @@ $color-licorice: #111011;
 $color-baby-powder: #FEFFFC;
 $color-silver: #C0C5C1;
 $color-black-coral: #5B616A;
-$color-old-lace: #FCF5E4;
 $ubuntu-mono: 'Ubuntu Mono', monospace;
 $bottom-line: 2px solid $color-silver;
 $background-color: $color-baby-powder;
@@ -21,6 +20,10 @@ a {
   text-decoration: none;
   padding-bottom: 1px;
   color: $spec-text-color;
+}
+
+a:hover {
+  border-bottom: $bottom-line;
 }
 
 h1, h2, h3 {
@@ -40,20 +43,23 @@ h1, h2, h3 {
   }
 }
 
-.header {
-  padding: 38px;
+.main .header {
+  padding: 38px 0;
   border-bottom: $bottom-line;
-  font-family: $header-font;
+  font: {
+    family: $header-font;
+  }
 }
 
-.header .nav2 {
+.main .header .nav {
   float: right;
 }
 
-.header .nav2 > a {
+.main .header .nav > a {
   padding: 0 2px 4px;
+  margin-left: 12px;
 }
 
-.header .nav2 > a.selected {
+.main .header .nav > a.selected {
   border-bottom: $bottom-line;
 }

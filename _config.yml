@@ -1,5 +1,4 @@
-name: Christmas Recipes
-title: christmas recipes
-markdown: redcarpet
+name:        Christmas Recipes
+title:       christmas recipes
 highlighter: pygments
-baseurl: /christmas-recipes
+baseurl:     /christmas-recipes
