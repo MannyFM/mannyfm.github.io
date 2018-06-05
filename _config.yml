@@ -1,4 +1,4 @@
 name:        Christmas Recipes
 title:       christmas recipes
-highlighter: pygments
+highlighter: rouge
 baseurl:     /christmas-recipes
