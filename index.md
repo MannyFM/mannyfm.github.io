@@ -1,5 +1,6 @@
 ---
 layout: default
-title: Home
+title: home
 ---
+
 red or blue?
